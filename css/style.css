@@ -1,0 +1,284 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* fonts */
+@font-face {
+  font-family: 'coolvetica';
+  src: url("../assets/fonts/coolveticarg.otf");
+}
+
+@font-face {
+  font-family: 'chanpagne';
+  src: url("../assets/fonts/Champagne&LimousinesBold.ttf");
+}
+
+@font-face {
+  font-family: 'louisGeorge';
+  src: url("../assets/fonts/LouisGeorgeCafeBold.ttf");
+}
+
+/* --- body --- */
+.body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../assets/img/all-bg7.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+/* --- header --- */
+
+.header{
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+  width: 100vw;
+  margin-top: 3.125rem;
+}
+
+.head-top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 25vh;
+  width: 100vw;
+}
+
+.logo-link img{
+  height: 15vh;
+}
+
+/* navbar */
+.navbar-container{
+  background-image: url("../assets/img/fondo-menu2InvSmall.jpg");
+  background-size: cover;
+  width: 100vw;
+  margin-top: .625rem;
+  height: 7vh;
+}
+
+.navbar ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  list-style-type: none;
+  padding: .625rem;
+  padding-top: .9375rem;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 1rem;
+  align-items: center;
+}
+
+.navbar a {
+  color: rgb(204, 176, 101);
+  text-decoration: none;
+  /* padding: .3125rem; */
+  font-family: chanpagne;
+  font-size: large;
+  font-weight: normal;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* --- main --- */
+
+.main{
+  display: flex;
+  flex-direction: column;
+  height: 150vh;
+  width: 100vw;
+  align-items: center;
+}
+
+.imagen-main{
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  max-width: 1500px;
+  min-width: 320px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+
+.imagen-main img{
+  width: 100%;
+  border-radius: .3125rem;
+  border-style: ridge;
+  border-width: .125rem;
+  box-shadow: 3px 3px 10px #2e2d2d;
+}
+
+.video-main{
+  width: 100%;
+  border-radius: .3125rem;
+  border-style: ridge;
+  border-width: .125rem;
+  box-shadow: 3px 3px 10px #2e2d2d;
+}
+
+.linea-horizontal {
+  width: 4cm;
+  height: 5px;
+  background-color: #be731d;
+  /* margin: 0 auto; */
+  margin-top: 1.875rem;
+}
+
+.titulo-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo-main p{
+  color: #be731d;
+}
+
+section h1{
+  font-family: louisGeorge;
+  font-size: 1.875rem;
+  font-weight: bolder;
+  margin-top: .625rem;
+  text-align: center;
+}
+
+section h2{
+  font-family: chanpagne;
+  color: #be731d;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  padding: .1875rem;
+}
+
+.cards-main{
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  height: 50%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.25rem;
+  margin-bottom: 100vh !important;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 12.5rem;
+  height: 21.875rem;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  border-radius: .3125rem;
+  margin: 20px;
+  box-shadow: 3px 3px 10px #2e2d2d;
+}
+
+.card h3{
+  background-color: rgba(196, 151, 29, 0.596);
+  padding: .625rem .3125rem; 
+}
+
+.card-imagen{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 18.75rem;
+  min-width: 100px;
+}
+
+.card-imagen img{
+  width: 100%;
+  height: 20vh;
+  border-radius: .3125rem;
+  /* max-width: 18rem;  */
+}
+
+.cards-main .card p{
+  font-family: coolvetica;
+  font-size: 1rem;
+  padding: .3125rem;
+}
+
+/* card horizontal */
+.cards-main-h{
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+}
+
+.card-horizontal{
+  
+}
+
+.card-imagen-horizontal{
+  
+}
+
+.card-imagen-horizontal img{
+}
+
+
+
+/* --- footer --- */
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 40vh;
+  width: 100vw;  
+  justify-content: center;
+  background-image: url("../assets/img/fondo-menu2.jpg");
+  background-size: cover;
+  padding: 1.875rem;
+  margin-top: 1.25rem;
+}
+
+.footer-section {
+  flex-basis: 15%;
+  text-align: left;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items:normal;
+  justify-content: center;
+  align-self: flex-start;
+}
+
+
+h4 {
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:left;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 13px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+} 
+
+.imagen-redes{
+  width: 20%;
+}
