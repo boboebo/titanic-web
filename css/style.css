@@ -222,11 +222,42 @@ section h2{
   display: flex;
   flex-direction: column;
   width: 70vw;
+  margin-top: 1.875rem;
 }
 
-.card-horizontal{
-  
+.card-h{
+  display: flex;
+  width: 100%;
 }
+
+.card-h-imagen{
+  width: 50%;
+}
+
+.card-h-imagen img{
+  width: 100%;
+}
+
+.card-h-info{
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.875rem;
+  width: 50%; 
+  justify-content: left; 
+  align-items: left;
+}
+
+.card-h-info h3{
+  padding-top: 1.25rem;
+  padding-left: 1.25rem;
+
+
+}
+
+.card-h-info p{
+ padding: 1.25rem;
+}
+
 
 .card-imagen-horizontal{
   
