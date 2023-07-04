@@ -98,7 +98,7 @@
 .main{
   display: flex;
   flex-direction: column;
-  height: 150vh;
+  height: 250vh;
   width: 100vw;
   align-items: center;
 }
@@ -123,6 +123,17 @@
 }
 
 .video-main{
+  display: flex;
+  width: 60vw;
+  height: 50vh;
+  max-width: 1500px;
+  min-width: 320px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+
+.video-main iframe{
   width: 100%;
   border-radius: .3125rem;
   border-style: ridge;
@@ -169,12 +180,12 @@ section h2{
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
-  height: 50%;
+  /* height: 50%; */
+  max-height: 50vh;
   width: 100%;
   align-items: center;
   justify-content: center;
   margin-top: 1.25rem;
-  margin-bottom: 100vh !important;
 }
 
 .card{
@@ -221,13 +232,18 @@ section h2{
 .cards-main-h{
   display: flex;
   flex-direction: column;
-  width: 70vw;
+  width: 60vw;
   margin-top: 1.875rem;
+  gap: .9375rem;
 }
 
 .card-h{
   display: flex;
   width: 100%;
+  border: 2px solid black;
+  border-radius: .3125rem;
+  box-shadow: 3px 3px 10px #2e2d2d;
+  /* max-height: 60vh; */
 }
 
 .card-h-imagen{
@@ -235,37 +251,52 @@ section h2{
 }
 
 .card-h-imagen img{
+  /* max-height: 50vh; */
   width: 100%;
 }
 
 .card-h-info{
   display: flex;
   flex-direction: column;
-  padding-left: 1.875rem;
   width: 50%; 
   justify-content: left; 
   align-items: left;
 }
 
 .card-h-info h3{
-  padding-top: 1.25rem;
-  padding-left: 1.25rem;
-
-
+  padding: 1.25rem;
+  background-color: #be731d;
+  text-align: center;
 }
 
 .card-h-info p{
- padding: 1.25rem;
+  padding: 1.25rem;
+  font-family: coolvetica;
+  font-weight: lighter;
 }
 
-
-.card-imagen-horizontal{
-  
+.tickets{
+ display: flex;
+ flex-direction: column;
+ width: 80vw;
 }
 
-.card-imagen-horizontal img{
+.ticket-precios{
+  display: flex;
+  width: 100%;
 }
 
+.tramo-ticket{
+
+}
+
+.titulo-ticket{
+
+}
+
+.precio-ticket{
+
+}
 
 
 /* --- footer --- */
