@@ -7,38 +7,52 @@
     <title>Home</title>
     <link rel="stylesheet" href="../css/style.css" />
   </head>
-  <body>
-    <header class="header header-buy">
-      <a href="../index.html" class="logo-link"
-        ><img src="../assets/img/logo-white-star.png" alt="Logo" class="logo"
-      /></a>
-      <div class="contact-info">
-        <p>Teléfono: 123-456-789</p>
-        <p>Email: info@example.com</p>
+  <body class="body">
+    <header class="header">
+      <div class="head-top">
+        <div class="logo-link">
+          <a href="#"
+            ><img
+              src="../assets/img/logo-white-star.png"
+              alt="Logo"
+              class="logo"
+          /></a>
+        </div>
+        <div class="navbar-container">
+          <nav class="navbar">
+            <ul>
+              <li>
+                <a href="../pages/viajeInaugural.html">Viaje Inaugural</a>
+              </li>
+              <li>
+                <a href="../pages/barco.html">El Barco</a>
+              </li>
+              <li>
+                <a href="../pages/tripulacion.html">Tripulación</a>
+              </li>
+              <li>
+                <a href="../pages/comprar.html">Compra tu Pasaje</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <nav class="navbar">
-        <ul>
-          <li>
-            <a href="./viajeInaugural.html">Viaje Inaugural</a>
-          </li>
-          <li>
-            <a href="./barco.html">El Barco</a>
-          </li>
-          <li>
-            <a href="./tripulacion.html">Tripulación</a>
-          </li>
-          <li>
-            <a href="#" class="active">Compra tu Pasaje</a>
-          </li>
-        </ul>
-      </nav>
     </header>
-    <main>
-      <section>
-        <div class="linea-horizontal"></div>
-        <h3 class="titulo-main">TICKETS</h3>
+    <main class="main">
+      <!-- <div class="main-image">
+        <img src="../assets/img/head-home.jpg" alt="" />
+      </div> -->
+      <section class="imagen-main-buy">
+        <img src="../assets/img/head-buy.jpg" alt="" />
       </section>
-      <section>
+      <section class="titulo-main">
+        <div class="linea-horizontal"></div>
+        <div><h1>RMS Titanic: Compra tu ticket</h1></div>
+        <div>
+          <h2>DESCUBRE LA NUEVA JOYA DE LA WHITE STAR LINE</h2>
+        </div>
+      </section>
+      <section class="cards-main">
         <div class="card-container-ticket">
           <div class="card-ticket">
             <p class="note">Southampton - New York</p>
@@ -66,23 +80,30 @@
           </div>
         </div>
       </section>
-      <section>
-        <div class="image-grilla">
-          <div class="image-item">
-            <img src="../assets/img/galeria1.jpg" alt="" />
+      <section class="form">
+        <h2>Compre su ticket</h2>
+
+        <form action="">
+          <div class="form-input">
+            <label for="">Campo</label>
+            <input type="text" />
           </div>
-          <div class="image-item">
-            <img src="../assets/img/galeria8.jpg" alt="" />
+          <div class="form-input">
+            <label for="">Campo</label>
+            <input type="text" />
           </div>
-          <div class="image-item">
-            <img src="../assets/img/galeria4.jpg" alt="" />
+          <div class="form-input">
+            <label for="">Campo</label>
+            <input type="text" />
           </div>
-        </div>
+          <div class="form-input">
+            <input type="submit" />
+          </div>
+        </form>
       </section>
     </main>
-
     <footer class="footer">
-      <div class="section">
+      <div class="footer-section">
         <h4>INFORMACIÓN CORPORATIVA</h4>
         <br />
         <p>Acerca de White Star Line</p>
@@ -90,7 +111,7 @@
         <p>Terminos de uso</p>
         <p>Defensa del Consumidor</p>
       </div>
-      <div class="section">
+      <div class="footer-section">
         <h4>INFORMACIÓN DEL VIAJE</h4>
         <br />
         <p>Antes del crucero</p>
@@ -99,25 +120,38 @@
         <p>Nuestras tarifas</p>
         <p>Consejos de viaje</p>
       </div>
-      <div class="section">
+      <div class="footer-section">
         <h4>NOTICIAS Y CONTACTOS</h4>
         <br />
         <p>Noticias</p>
         <p>Contacto</p>
         <p>Trabaja con nosotros</p>
       </div>
-      <div class="section">
+      <div class="footer-section">
         <h4>SEGUINOS</h4>
         <p>
-          <img src="../assets/img/icons8-facebook-64-white.png" alt="" />
-          <img src="../assets/img/icons8-instagram-64-white.png" alt="" />
+          <img
+            class="imagen-redes"
+            src="../assets/img/icons8-facebook-64-white.png"
+            alt=""
+          />
+          <img
+            class="imagen-redes"
+            src="../assets/img/icons8-instagram-64-white.png"
+            alt=""
+          />
         </p>
         <p>
           <img
+            class="imagen-redes"
             src="../assets/img/icons8-twitter-cuadrado-64-white.png"
             alt=""
           />
-          <img src="../assets/img/icons8-youtube-play-64-white.png" alt="" />
+          <img
+            class="imagen-redes"
+            src="../assets/img/icons8-youtube-play-64-white.png"
+            alt=""
+          />
         </p>
       </div>
     </footer>

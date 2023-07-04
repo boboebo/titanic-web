@@ -122,6 +122,25 @@
   box-shadow: 3px 3px 10px #2e2d2d;
 }
 
+.imagen-main-buy{
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  max-width: 1500px;
+  min-width: 320px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+
+.imagen-main-buy img{
+  width: 100%;
+  border-radius: .3125rem;
+  border-style: ridge;
+  border-width: .125rem;
+  box-shadow: 3px 3px 10px #2e2d2d;
+}
+
 .video-main{
   display: flex;
   width: 60vw;
@@ -231,14 +250,15 @@ section h2{
 /* card horizontal */
 .cards-main-h{
   display: flex;
-  flex-direction: column;
-  width: 60vw;
+  /* flex-wrap: wrap; */
+  width: 60%;
   margin-top: 1.875rem;
   gap: .9375rem;
 }
 
 .card-h{
   display: flex;
+  flex-direction: column;
   width: 100%;
   border: 2px solid black;
   border-radius: .3125rem;
@@ -247,7 +267,7 @@ section h2{
 }
 
 .card-h-imagen{
-  width: 50%;
+  width: 100%;
 }
 
 .card-h-imagen img{
@@ -258,7 +278,7 @@ section h2{
 .card-h-info{
   display: flex;
   flex-direction: column;
-  width: 50%; 
+  width: 100%; 
   justify-content: left; 
   align-items: left;
 }
@@ -286,18 +306,68 @@ section h2{
   width: 100%;
 }
 
-.tramo-ticket{
-
+.card-container-ticket {
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  border-radius: 5px;
+  gap: 20px;
+  padding: 1.875rem;
+  box-shadow: 3px 3px 10px #2e2d2d;
 }
 
-.titulo-ticket{
-
+.card-ticket {
+  width: 12.5rem;
+  height: 12.5rem;
+  padding: 1.25rem;
+  border: .0625rem solid #000;
+  border-radius: .3125rem;
+  text-align: center;
+  background-color: rgba(222, 184, 135, 0.267);
 }
 
-.precio-ticket{
-
+.note {
+  color: #000000;
+  font-size: small;
+  text-align: center;
+  background-color: #e29b4a;
+  padding-top: 1.25rem;
 }
 
+.price {
+  font-weight: bold;
+  color: #000000;
+  font-size: large;
+  text-align: center;
+  background-color: cadetblue;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  padding: 1.25rem;
+  border: .0625rem solid #000;
+  border-radius: .3125rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.form p{
+  padding: .625rem;
+}
+
+.form-input{
+  padding: .625rem;
+  width: 30vh;
+}
+
+.form-input input{
+  width: 30vh;
+}
 
 /* --- footer --- */
 
