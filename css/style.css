@@ -751,6 +751,12 @@ h4 {
     align-items: center;
   }
 
+  .navbar-comprar ul{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .card{
     height: 28.125rem;
   }
