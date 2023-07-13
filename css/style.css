@@ -169,7 +169,7 @@
   min-width: 320px;
   align-items: center;
   justify-content: center;
-  margin-top: 1.25rem;
+  margin-top: 3.125rem;
 }
 
 .imagen-main-buy img{
@@ -755,6 +755,14 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .imagen-main-buy{
+    margin-top: 2.5rem;
+  }
+
+  .imagen-main-buy{
+    margin-top: 2.5rem
   }
 
   .card{
