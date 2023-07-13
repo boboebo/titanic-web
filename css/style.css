@@ -565,19 +565,6 @@ h4 {
 }
 
 @media(max-width:980px) {
-  .navbar-container{
-    background-image: url("../assets/img/fondo-menu2InvSmallest1.jpg");
-    background-size: cover;
-    margin-top: .625rem;
-    height: 15vh;
-  }
-
-  .navbar ul{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
   .imagen-main{
     width: 100vw;
   }
@@ -704,6 +691,19 @@ h4 {
 }
 
 @media(max-width:768px) {
+  .navbar-container{
+    background-image: url("../assets/img/fondo-menu2InvSmallest1.jpg");
+    background-size: cover;
+    margin-top: .625rem;
+    height: 15vh;
+  }
+
+  .navbar ul{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .card{
     height: 28.125rem;
   }
