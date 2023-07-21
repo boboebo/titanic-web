@@ -64,6 +64,7 @@
 
 /* navbar */
 .navbar-container {
+  display: flex;
   background-image: url("../assets/img/fondo-menu2InvSmall.jpg");
   background-size: cover;
   width: 100%;
@@ -71,6 +72,10 @@
   height: 7vh;
   justify-content: center;
   align-items: center;
+}
+
+.mi-navbar {
+  width: 60%;
 }
 
 .navbar ul {
@@ -92,7 +97,6 @@
 .navbar a {
   color: rgb(204, 176, 101);
   text-decoration: none;
-  /* padding: .3125rem; */
   font-family: chanpagne;
   font-size: large;
   font-weight: normal;
@@ -103,8 +107,9 @@
   text-decoration: underline;
 }
 
-/* navbar comprar*/
+/* navbar sin bt */
 .navbar-container {
+  display: flex;
   background-image: url("../assets/img/fondo-menu2InvSmall.jpg");
   background-size: cover;
   width: 100%;
@@ -114,7 +119,11 @@
   align-items: center;
 }
 
-.navbar-comprar ul {
+.mi-navbar {
+  width: 60%;
+}
+
+.mi-navbar ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,23 +133,24 @@
   padding-top: 0.9375rem;
 }
 
-.navbar-comprar li {
+.mi-navbar li {
   display: inline-block;
   margin-right: 1rem;
   align-items: center;
 }
 
-.navbar-comprar a {
-  color: rgb(204, 176, 101);
+.mi-navbar a {
+  color: rgb(214, 169, 43);
   text-decoration: none;
   /* padding: .3125rem; */
   font-family: chanpagne;
   font-size: large;
   font-weight: normal;
   text-align: center;
+  text-shadow: 0.06px 0.0625rem rgb(43, 39, 32);
 }
 
-.navbar-comprar a:hover {
+.mi-navbar a:hover {
   text-decoration: underline;
 }
 
@@ -800,7 +810,7 @@ section h2 {
     align-items: center;
   }
 
-  .navbar-comprar ul {
+  .mi-navbar ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
