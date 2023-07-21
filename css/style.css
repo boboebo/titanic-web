@@ -114,7 +114,7 @@
   background-size: cover;
   width: 100%;
   margin-top: 0.625rem;
-  height: 7vh;
+  height: 4.375rem;
   justify-content: center;
   align-items: center;
 }
@@ -196,6 +196,7 @@
 .video-main {
   display: flex;
   width: 60%;
+  height: 25rem;
   align-items: center;
   justify-content: center;
   margin-top: 1.25rem;
@@ -271,7 +272,7 @@ section h2 {
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 28.125rem;
+  max-width: 30rem;
 }
 
 .card h3 {
@@ -374,7 +375,7 @@ section h2 {
 .tickets {
   display: flex;
   flex-direction: column;
-  width: 80vw;
+  width: 80%;
 }
 
 .ticket-precios {
@@ -424,7 +425,7 @@ section h2 {
 .form {
   display: flex;
   flex-direction: column;
-  width: 40vw;
+  width: 40%;
   padding: 1.25rem;
   border: 0.0625rem solid #000;
   border-radius: 0.3125rem;
@@ -441,11 +442,11 @@ section h2 {
 
 .form-input {
   padding: 0.625rem;
-  width: 30vh;
+  width: 30%;
 }
 
 .form-input input {
-  width: 30vh;
+  width: 30%;
 }
 
 /* galeria Index*/
