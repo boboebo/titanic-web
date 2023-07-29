@@ -40,7 +40,7 @@
   }
   
   .logo-link img {
-    width: 25%;
+    width: 30%;
   }
   
   /* navbar */
@@ -573,10 +573,14 @@
     }
   }
 
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     .navbar-container {
         justify-content: end;
-      }
+    }
+
+    .logo-link img {
+        width: 35%;
+    }
   }
   
   @media (max-width: 980px) {
