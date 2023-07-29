@@ -55,7 +55,7 @@
 }
 
 .logo-link img {
-  width: 40%;
+  width: 25%;
 }
 
 /* navbar */
@@ -77,7 +77,10 @@
   margin-right: 1.875rem;
 }
 
-/* navbar sin bt */
+.navbar .ul .li:hover {
+  transform: scale(1.03);
+}
+
 /* --- main --- */
 .main {
   display: flex;
@@ -137,7 +140,6 @@
   width: 4cm;
   height: 5px;
   background-color: #be731d;
-  /* margin: 0 auto; */
   margin-top: 1.875rem;
 }
 
@@ -189,6 +191,10 @@ section h2 {
   box-shadow: 3px 3px 10px #2e2d2d;
 }
 
+.card:hover {
+  transform: scale(1.05);
+}
+
 .card-imagen {
   display: flex;
   flex-direction: column;
@@ -224,6 +230,10 @@ section h2 {
   box-shadow: 3px 3px 10px #2e2d2d;
 }
 
+.card-altas:hover {
+  transform: scale(1.05);
+}
+
 .card-altas h3 {
   background-color: rgba(196, 151, 29, 0.596);
   padding: 0.625rem 0.3125rem;
@@ -256,6 +266,10 @@ section h2 {
   box-shadow: 3px 3px 10px #2e2d2d;
 }
 
+.card-h:hover {
+  transform: scale(1.03);
+}
+
 .card-h-chicas {
   display: flex;
   flex-direction: column;
@@ -264,6 +278,10 @@ section h2 {
   border: 2px solid black;
   border-radius: 0.3125rem;
   box-shadow: 3px 3px 10px #2e2d2d;
+}
+
+.card-h-chicas:hover {
+  transform: scale(1.03);
 }
 
 .card-h-imagen {
