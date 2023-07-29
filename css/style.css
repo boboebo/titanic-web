@@ -9,17 +9,14 @@
   font-family: "coolvetica";
   src: url("../assets/fonts/coolveticarg.otf");
 }
-
 @font-face {
   font-family: "chanpagne";
   src: url("../assets/fonts/Champagne&LimousinesBold.ttf");
 }
-
 @font-face {
   font-family: "louisGeorge";
   src: url("../assets/fonts/LouisGeorgeCafeBold.ttf");
 }
-
 /* --- body --- */
 .body {
   background-image: url("../assets/img/all-bg7.jpg");
@@ -30,7 +27,6 @@
 }
 
 /* --- header --- */
-
 .header {
   display: flex;
   flex-direction: column;
@@ -69,93 +65,20 @@
   background-size: cover;
   width: 100%;
   margin-top: 0.625rem;
-  height: 7vh;
+  height: 5rem;
   justify-content: center;
   align-items: center;
 }
 
-.mi-navbar {
-  width: 60%;
-}
-
-.navbar ul {
+.navbar-bg {
   display: flex;
+  background-color: rgba(248, 248, 248, 0.5411764706);
   justify-content: center;
-  align-items: center;
-  margin: 0;
-  list-style-type: none;
-  padding: 0.625rem;
-  padding-top: 0.9375rem;
-}
-
-.navbar li {
-  display: inline-block;
-  margin-right: 1rem;
-  align-items: center;
-}
-
-.navbar a {
-  color: rgb(204, 176, 101);
-  text-decoration: none;
-  font-family: chanpagne;
-  font-size: large;
-  font-weight: normal;
-  text-align: center;
-}
-
-.navbar a:hover {
-  text-decoration: underline;
+  margin-right: 1.875rem;
 }
 
 /* navbar sin bt */
-.navbar-container {
-  display: flex;
-  background-image: url("../assets/img/fondo-menu2InvSmall.jpg");
-  background-size: cover;
-  width: 100%;
-  margin-top: 0.625rem;
-  height: 4.375rem;
-  justify-content: center;
-  align-items: center;
-}
-
-.mi-navbar {
-  width: 60%;
-}
-
-.mi-navbar ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  list-style-type: none;
-  padding: 0.625rem;
-  padding-top: 0.9375rem;
-}
-
-.mi-navbar li {
-  display: inline-block;
-  margin-right: 1rem;
-  align-items: center;
-}
-
-.mi-navbar a {
-  color: rgb(214, 169, 43);
-  text-decoration: none;
-  /* padding: .3125rem; */
-  font-family: chanpagne;
-  font-size: large;
-  font-weight: normal;
-  text-align: center;
-  text-shadow: 0.06px 0.0625rem rgb(43, 39, 32);
-}
-
-.mi-navbar a:hover {
-  text-decoration: underline;
-}
-
 /* --- main --- */
-
 .main {
   display: flex;
   flex-direction: column;
@@ -272,7 +195,6 @@ section h2 {
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 30rem;
 }
 
 .card h3 {
@@ -450,7 +372,6 @@ section h2 {
 }
 
 /* galeria Index*/
-
 .galeria-index {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -460,10 +381,7 @@ section h2 {
   margin-top: 1.875rem;
   padding: 1.25rem;
   background-color: #dfcab3;
-  grid-template-areas:
-    "img1 img1 img3 img4"
-    "img1 img1 img2 img2"
-    "img5 img6 img2 img2";
+  grid-template-areas: "img1 img1 img3 img4" "img1 img1 img2 img2" "img5 img6 img2 img2";
 }
 
 .galeria-index .imgen1 {
@@ -501,7 +419,6 @@ section h2 {
 }
 
 /* galeria viaje */
-
 .galeria-viaje {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -513,8 +430,8 @@ section h2 {
 }
 
 .galeria-viaje .imgen1 {
-  grid-column: 1 / 3;
-  grid-row: 1 / 3;
+  grid-column: 1/3;
+  grid-row: 1/3;
 }
 
 .galeria-viaje .imgen1 img {
@@ -522,8 +439,8 @@ section h2 {
 }
 
 .galeria-viaje .imgen2 {
-  grid-column: 3 / 5;
-  grid-row: 2 / 4;
+  grid-column: 3/5;
+  grid-row: 2/4;
 }
 
 .galeria-viaje .imgen2 img {
@@ -531,8 +448,8 @@ section h2 {
 }
 
 .galeria-viaje .imgen3 {
-  grid-column: 3 / 4;
-  grid-row: 1 / 2;
+  grid-column: 3/4;
+  grid-row: 1/2;
 }
 
 .galeria-viaje .imgen3 img {
@@ -540,8 +457,8 @@ section h2 {
 }
 
 .galeria-viaje .imgen4 {
-  grid-column: 4 / 5;
-  grid-row: 1 / 2;
+  grid-column: 4/5;
+  grid-row: 1/2;
 }
 
 .galeria-viaje .imgen4 img {
@@ -549,8 +466,8 @@ section h2 {
 }
 
 .galeria-viaje .imgen5 {
-  grid-column: 1 / 2;
-  grid-row: 3 / 4;
+  grid-column: 1/2;
+  grid-row: 3/4;
 }
 
 .galeria-viaje .imgen5 img {
@@ -558,8 +475,8 @@ section h2 {
 }
 
 .galeria-viaje .imgen6 {
-  grid-column: 2 / 3;
-  grid-row: 3 / 4;
+  grid-column: 2/3;
+  grid-row: 3/4;
 }
 
 .galeria-viaje .imgen6 img {
@@ -572,7 +489,6 @@ section h2 {
 }
 
 /* --- footer --- */
-
 .mi-footer {
   display: flex;
   flex-direction: column;
@@ -632,371 +548,274 @@ section h2 {
   .redes {
     flex-direction: row;
   }
-
   .redes p {
     width: 100px;
   }
-
   .redes img {
     width: 50px;
   }
-
   .card-altas {
     height: 25rem;
   }
 }
-
+@media (max-width: 992px) {
+  .navbar-container {
+    justify-content: end;
+  }
+}
 @media (max-width: 980px) {
   .imagen-main {
     width: 100%;
   }
-
   .cards-main {
     display: flex;
     flex-direction: column;
   }
-
   .card {
     width: 70%;
     height: auto;
     flex-direction: row;
   }
-
   .card-imagen {
     width: 50%;
   }
-
   .card-texto {
     width: 50%;
   }
-
   .card-altas {
     width: 70%;
     height: auto;
     flex-direction: row;
   }
-
   .galeria-index {
     justify-content: center;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    grid-template-areas:
-      "img1 img1"
-      "img1 img1"
-      "img3 img4"
-      "img2 img2"
-      "img2 img2"
-      "img5 img6";
+    grid-template-areas: "img1 img1" "img1 img1" "img3 img4" "img2 img2" "img2 img2" "img5 img6";
   }
-
   .galeria-index .imgen1 {
     grid-area: img1;
   }
-
   .galeria-index .imgen2 {
     grid-area: img2;
   }
-
   .galeria-index .imgen3 {
     grid-area: img3;
   }
-
   .galeria-index .imgen4 {
     grid-area: img4;
   }
-
   .galeria-index .imgen5 {
     grid-area: img5;
   }
-
   .galeria-index .imgen6 {
     grid-area: img6;
   }
-
   .galeria-index img {
     max-width: 100%;
     height: auto;
   }
-
   /* galeria viaje */
-
   .galeria-viaje {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     background-color: #dfcab3;
   }
-
   .galeria-viaje .imgen1 {
-    grid-column: 1 / 3;
-    grid-row: 1 / 3;
+    grid-column: 1/3;
+    grid-row: 1/3;
   }
-
   .galeria-viaje .imgen1 img {
     width: 100%;
   }
-
   .galeria-viaje .imgen2 {
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
+    grid-column: 1/2;
+    grid-row: 3/4;
   }
-
   .galeria-viaje .imgen2 img {
     width: 100%;
   }
-
   .galeria-viaje .imgen3 {
-    grid-column: 2 / 3;
-    grid-row: 3 / 4;
+    grid-column: 2/3;
+    grid-row: 3/4;
   }
-
   .galeria-viaje .imgen3 img {
     width: 100%;
   }
-
   .galeria-viaje .imgen4 {
-    grid-column: 1 / 2;
-    grid-row: 4 / 5;
+    grid-column: 1/2;
+    grid-row: 4/5;
   }
-
   .galeria-viaje .imgen4 img {
     width: 100%;
   }
-
   .galeria-viaje .imgen5 {
-    grid-column: 2 / 3;
-    grid-row: 4 / 5;
+    grid-column: 2/3;
+    grid-row: 4/5;
   }
-
   .galeria-viaje .imgen5 img {
     width: 100%;
   }
-
   .galeria-viaje .imgen6 {
-    grid-column: 1 / 3;
-    grid-row: 5 / 7;
+    grid-column: 1/3;
+    grid-row: 5/7;
   }
-
   .galeria-viaje .imgen6 img {
     width: 100%;
   }
-
   .galeria-index img {
     max-width: 100%;
     height: auto;
   }
 }
-
 @media (max-width: 828px) {
   .card-imagen {
     width: 70%;
   }
-
   .card-texto {
     width: 30%;
   }
 }
-
 @media (max-width: 768px) {
-  .navbar-container {
-    background-image: url("../assets/img/fondo-menu2InvSmallest1.jpg");
-    background-size: cover;
-    margin-top: 0.625rem;
-    height: 15%;
-  }
-
-  .navbar ul {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .mi-navbar ul {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
   .imagen-main-buy {
     margin-top: 2.5rem;
   }
-
   .imagen-main-buy {
     margin-top: 2.5rem;
   }
-
   .card-altas {
     height: auto;
     width: 60%;
     flex-direction: column;
   }
-
   .card-altas .card-imagen {
     width: 100%;
   }
-
   .card-altas .card-texto {
     width: 100%;
   }
-
   .card-h {
     height: auto;
     width: 70%;
   }
 }
-
 @media ((max-width: 580px)) {
   .card-h {
     height: auto;
     width: 70%;
   }
 }
-
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .card {
     flex-direction: column;
   }
-
   .card-imagen {
     width: 100%;
   }
-
   .card-texto {
     width: 100%;
   }
-
+}
+@media (max-width: 600px) {
   .galeria-index {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    grid-template-areas:
-      "img1"
-      "img2"
-      "img3"
-      "img4"
-      "img5"
-      "img6";
+    grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6";
   }
-
   .galeria-index .imgen1 {
     grid-area: img1;
   }
-
   .galeria-index .imgen2 {
     grid-area: img2;
   }
-
   .galeria-index .imgen3 {
     grid-area: img3;
     justify-self: center;
   }
-
   .galeria-index .imgen4 {
     grid-area: img4;
     justify-self: center;
   }
-
   .galeria-index .imgen5 {
     grid-area: img5;
     justify-self: center;
   }
-
   .galeria-index .imgen6 {
     grid-area: img6;
     justify-self: center;
   }
-
   .galeria-index img {
     max-width: 100%;
     height: auto;
   }
-
   /* galeria viaje */
-
   .galeria-viaje {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
     background-color: #dfcab3;
   }
-
   .galeria-viaje .imgen1 {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
+    grid-column: 1/2;
+    grid-row: 1/2;
   }
-
   .galeria-viaje .imgen1 img {
     width: 100%;
   }
-
   .galeria-viaje .imgen2 {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
+    grid-column: 1/2;
+    grid-row: 2/3;
   }
-
   .galeria-viaje .imgen2 img {
     width: 100%;
   }
-
   .galeria-viaje .imgen3 {
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
+    grid-column: 1/2;
+    grid-row: 3/4;
   }
-
   .galeria-viaje .imgen3 img {
     width: 100%;
   }
-
   .galeria-viaje .imgen4 {
-    grid-column: 1 / 2;
-    grid-row: 4 / 5;
+    grid-column: 1/2;
+    grid-row: 4/5;
   }
-
   .galeria-viaje .imgen4 img {
     width: 100%;
   }
-
   .galeria-viaje .imgen5 {
-    grid-column: 1 / 2;
-    grid-row: 5 / 6;
+    grid-column: 1/2;
+    grid-row: 5/6;
   }
-
   .galeria-viaje .imgen5 img {
     width: 100%;
   }
-
   .galeria-viaje .imgen6 {
-    grid-column: 1 / 2;
-    grid-row: 6 / 7;
+    grid-column: 1/2;
+    grid-row: 6/7;
   }
-
   .galeria-viaje .imgen6 img {
     width: 100%;
   }
-
   .galeria-index img {
     max-width: 100%;
     height: auto;
   }
 }
-
 @media (max-width: 500px) {
   .card {
     height: 25rem;
   }
-
   .mi-footer {
     flex-direction: column;
   }
-
   .card-altas {
     height: auto;
   }
 }
-
 @media (max-width: 320px) {
-  .card {
-    height: 18.75rem;
-  }
-
   .card-h {
     height: auto;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
