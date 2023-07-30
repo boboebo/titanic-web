@@ -25,7 +25,7 @@
   }
   
   .mi-footer-section {
-    @include flex;
+    @include flex(column, center, center);
     text-align: left;
     margin-right: 20px;
     align-items: normal;

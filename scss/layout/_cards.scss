@@ -8,7 +8,7 @@
   }
   
   .card {
-    @include flex;
+    @include flex(column, center, center);
     width: 20%;
     height: 30rem;
     background-color: antiquewhite;
@@ -26,7 +26,7 @@
   }
  
   .card-imagen {
-    @include flex;
+    @include flex(column, center, center);
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -43,10 +43,10 @@
   }
   
   .card-altas {
-    @include flex;
+    @include flex(column, center, center);
     width: 50%;
     background-color: antiquewhite;
-    @include round-border;
+    @include round-border(1.25rem);
       &:hover{
         transform: scale(1.05);
       }
@@ -64,8 +64,7 @@
   
   /* card horizontal */
   .cards-main-h {
-    display: flex;
-    flex-direction: row;
+    @include flex(row, center, center);
     flex-wrap: wrap;
     width: 100%;
     margin-top: 1.875rem;
@@ -74,7 +73,7 @@
   }
   
   .card-h {
-    @include flex;
+    @include flex(column, center, center);
     width: 40%;
     min-width: 12.5rem;
     border: 2px solid black;
@@ -86,7 +85,7 @@
   }
 
   .card-h-chicas {
-    @include flex;
+    @include flex(column, center, center);
     width: 20%;
     min-width: 12.5rem;
     border: 2px solid black;
@@ -105,7 +104,7 @@
   }
     
   .card-h-info {
-    @include flex;
+    @include flex(column, center, center);
     width: 100%;
     justify-content: left;
     align-items: left;
@@ -122,7 +121,7 @@
   }
   
   .tickets {
-    @include flex;
+    @include flex(column, center, center);
     width: 80%;
   }
   
@@ -170,7 +169,7 @@
   }
   
   .form {
-    @include flex;
+    @include flex(column, center, center);
     width: 40%;
     padding: 1.25rem;
     border: 0.0625rem solid #000;

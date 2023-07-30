@@ -76,6 +76,8 @@
 .main {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   align-items: center;
 }
@@ -159,6 +161,8 @@ section h2 {
 .card {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 20%;
   height: 30rem;
   background-color: antiquewhite;
@@ -180,6 +184,8 @@ section h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  align-items: center;
+  justify-content: center;
   width: 100%;
 }
 .card-imagen img {
@@ -196,11 +202,13 @@ section h2 {
 .card-altas {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 50%;
   background-color: antiquewhite;
   border: 2px solid black;
   border-radius: 0.3125rem;
-  margin: 20px;
+  margin: 1.25rem;
   box-shadow: 3px 3px 10px #2e2d2d;
 }
 .card-altas:hover {
@@ -221,6 +229,8 @@ section h2 {
 .cards-main-h {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   width: 100%;
   margin-top: 1.875rem;
@@ -231,6 +241,8 @@ section h2 {
 .card-h {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 40%;
   min-width: 12.5rem;
   border: 2px solid black;
@@ -244,6 +256,8 @@ section h2 {
 .card-h-chicas {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 20%;
   min-width: 12.5rem;
   border: 2px solid black;
@@ -264,6 +278,8 @@ section h2 {
 .card-h-info {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   justify-content: left;
   align-items: left;
@@ -282,6 +298,8 @@ section h2 {
 .tickets {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 80%;
 }
 
@@ -331,6 +349,8 @@ section h2 {
 .form {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 40%;
   padding: 1.25rem;
   border: 0.0625rem solid #000;
@@ -476,6 +496,8 @@ section h2 {
 .mi-footer-section {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: left;
   margin-right: 20px;
   align-items: normal;
