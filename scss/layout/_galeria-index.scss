@@ -1,0 +1,40 @@
+.galeria-index {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 0.625rem;
+  width: 80%;
+  margin-top: 1.875rem;
+  padding: 1.25rem;
+  background-color: #dfcab3;
+  grid-template-areas:
+    "img1 img1 img3 img4"
+    "img1 img1 img2 img2"
+    "img5 img6 img2 img2";
+    .imgen1 {
+      grid-area: img1;
+      width: 100%;
+      height: 30%;
+    }
+    .imgen2 {
+      @extend .imgen1;
+      grid-area: img2;
+    }
+    .imgen3 {
+      grid-area: img3;
+      height: 15%;
+    }
+    .imgen4 {
+      grid-area: img4;
+    }
+    .imgen5 {
+      grid-area: img5;
+    }
+    .imgen6 {
+      grid-area: img6;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+}

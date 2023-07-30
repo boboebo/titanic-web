@@ -1,0 +1,13 @@
+@media (max-width: 800px) {
+    .card {
+        flex-direction: column;
+      }
+
+      .card-imagen {
+        width: 100%;
+      }
+    
+      .card-texto {
+        width: 100%;
+      }
+}

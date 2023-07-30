@@ -1,0 +1,51 @@
+.mi-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/img/fondo-menu2.jpg");
+    background-size: cover;
+    padding: 1.875rem;
+    margin-top: 1.25rem;
+      h4 {
+        font-size: 15px;
+        margin-bottom: 5px;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        margin-bottom: 10px;
+      }
+  }
+  
+  .mi-footer-secciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+  }
+  
+  .mi-footer-section {
+    @include flex;
+    text-align: left;
+    margin-right: 20px;
+    align-items: normal;
+    justify-content: center;
+    align-self: flex-start;
+    margin-top: 0.9375rem;
+      p {
+        font-size: 13px;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        margin: 0.0625rem;
+      }
+  }
+    
+  .redes {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .imagen-redes {
+    width: 20%;
+  }

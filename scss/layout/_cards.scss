@@ -1,0 +1,195 @@
+.cards-main {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.25rem;
+  }
+  
+  .card {
+    @include flex;
+    width: 20%;
+    height: 30rem;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 0.3125rem;
+    margin: 0.625rem;
+    box-shadow: 3px 3px 10px #2e2d2d;
+      &:hover{
+        transform: scale(1.05);
+      }
+      h3 {
+        background-color: $color_fondo;
+        padding: 0.625rem 0.3125rem;
+      }
+  }
+ 
+  .card-imagen {
+    @include flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+      img {
+        width: 100%;
+        border-radius: 0.3125rem;
+      }
+  }
+
+  .cards-main .card p {
+    font-family: coolvetica;
+    font-size: 1rem;
+    padding: 0.3125rem;
+  }
+  
+  .card-altas {
+    @include flex;
+    width: 50%;
+    background-color: antiquewhite;
+    @include round-border;
+      &:hover{
+        transform: scale(1.05);
+      }
+      h3 {
+        background-color: $color_fondo;
+        padding: 0.625rem 0.3125rem;
+      }
+  }
+
+  .cards-main .card-altas p {
+    font-family: coolvetica;
+    font-size: 1rem;
+    padding: 0.3125rem;
+  }
+  
+  /* card horizontal */
+  .cards-main-h {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1.875rem;
+    gap: 0.9375rem;
+    justify-content: center;
+  }
+  
+  .card-h {
+    @include flex;
+    width: 40%;
+    min-width: 12.5rem;
+    border: 2px solid black;
+    border-radius: 0.3125rem;
+    box-shadow: 3px 3px 10px #2e2d2d;
+      &:hover{
+        transform: scale(1.03);
+      }
+  }
+
+  .card-h-chicas {
+    @include flex;
+    width: 20%;
+    min-width: 12.5rem;
+    border: 2px solid black;
+    border-radius: 0.3125rem;
+    box-shadow: 3px 3px 10px #2e2d2d;
+      &:hover{
+        transform: scale(1.03);
+      }
+  }
+
+  .card-h-imagen {
+    width: 100%;
+      img {
+        width: 100%;
+      }
+  }
+    
+  .card-h-info {
+    @include flex;
+    width: 100%;
+    justify-content: left;
+    align-items: left;
+      h3 {
+        padding: 1.25rem;
+        background-color: #be731d;
+        text-align: center;
+      }
+      p {
+        padding: 1.25rem;
+        font-family: coolvetica;
+        font-weight: lighter;
+      }
+  }
+  
+  .tickets {
+    @include flex;
+    width: 80%;
+  }
+  
+  .ticket-precios {
+    display: flex;
+    width: 100%;
+  }
+  
+  .card-container-ticket {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+    gap: 20px;
+    padding: 1.875rem;
+    box-shadow: 0.1875rem 0.1875rem 0.625rem rgb(34, 33, 33);
+  }
+  
+  .card-ticket {
+    width: 12.5rem;
+    height: 12.5rem;
+    padding: 1.25rem;
+    border: 0.0625rem solid #000;
+    border-radius: 0.3125rem;
+    text-align: center;
+    background-color: rgba(222, 184, 135, 0.267);
+  }
+  
+  .note {
+    color: #000000;
+    font-size: small;
+    text-align: center;
+    background-color: #e29b4a;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #000000;
+    font-size: large;
+    text-align: center;
+    background-color: cadetblue;
+  }
+  
+  .form {
+    @include flex;
+    width: 40%;
+    padding: 1.25rem;
+    border: 0.0625rem solid #000;
+    border-radius: 0.3125rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.25rem;
+    background-color: #d4ab7c;
+    box-shadow: 0.1875rem 0.1875rem 0.625rem rgb(34, 33, 33);
+      p {
+        padding: 0.625rem;
+      }
+  }
+  
+  .form-input {
+    padding: 0.625rem;
+    width: 30%;
+  }
+  
+  .form-input input {
+    width: 30%;
+  }
