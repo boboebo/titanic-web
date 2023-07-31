@@ -1,13 +1,38 @@
 @media (max-width: 1209px) {
-    .redes {
-      flex-direction: row;
-      p {
-        width: 100px;
-      }
-      img {
-        width: 50px;
-      }
+  .cards-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 70%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .card-index {
+    width: 70%;
+    height: auto;
+    flex-direction: row;
+  }
+
+  .card-imagen {
+    width: 100%;
+  }
+
+  .card-texto {
+    width: 100%;
+  }
+    
+  .redes {
+    flex-direction: row;
+    p {
+      width: 100px;
     }
+    img {
+      width: 50px;
+    }
+  }
   
     .card-altas {
       height: 25rem;
