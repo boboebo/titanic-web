@@ -765,6 +765,13 @@ section h2 {
   .card-h-imagen {
     width: 70%;
   }
+  .card-h-chicas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+  }
 }
 @media (max-width: 768px) {
   .imagen-main-buy {

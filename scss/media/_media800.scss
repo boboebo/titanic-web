@@ -28,4 +28,9 @@
   .card-h-imagen{
     width: 70%;
   }
+
+  .card-h-chicas {
+    @include flex(row, center, center);
+    width: 80%;
+  }
 }
