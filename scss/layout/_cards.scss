@@ -10,7 +10,7 @@
   .card {
     @include flex(column, start, start);
     width: 30%;
-    height: 35rem;
+    height: 37rem;
     background-color: antiquewhite;
     border: 2px solid black;
     border-radius: 0.3125rem;
@@ -72,7 +72,7 @@
   .cards-main .card-index p {
     font-family: coolvetica;
     font-size: 1rem;
-    padding: 0.3125rem;
+    padding: 1.25rem;
   }
    
   .card-altas {
@@ -225,4 +225,20 @@
   
   .form-input input {
     width: 30%;
+  }
+
+  .parrafo-importante{
+    text-align: center;
+    width: 100%;
+  }
+
+  .parrafo-importante-link{
+    text-align: center;
+    font-size: 1.25rem;
+    width: 100%;
+  }
+
+  .parrafo-justificado{
+    text-align: justify;
+    padding: 1.875rem;
   }
