@@ -10,4 +10,15 @@
     .card-altas {
       height: auto;
     }
+
+    .logo-link {
+      width: 90%;
+      justify-content: center;
+      a {
+        text-align: center;
+      }
+      img {
+        width: 40%;
+      }
+    }
 }

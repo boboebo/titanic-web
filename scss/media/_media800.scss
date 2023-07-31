@@ -1,13 +1,21 @@
 @media (max-width: 800px) {
-    .card {
-        flex-direction: column;
-      }
+  .card {
+    flex-direction: column;
+  }
 
-      .card-imagen {
-        width: 100%;
-      }
-    
-      .card-texto {
-        width: 100%;
-      }
+  .card-imagen {
+    width: 100%;
+  }
+  
+  .card-texto {
+    width: 100%;
+  }
+
+  .card-h{
+    @include flex(column, start, start);
+  }
+
+  .card-h-info {
+    padding: .3125rem;
+  }
 }

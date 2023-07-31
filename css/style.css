@@ -82,6 +82,13 @@
   align-items: center;
 }
 
+.subtitulo {
+  text-shadow: 0.0625rem 0.0625rem rgb(63, 60, 49);
+  background-color: rgba(212, 193, 167, 0.9098039216);
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+}
+
 .imagen-main, .imagen-main-buy {
   width: 90%;
   align-items: center;
@@ -141,7 +148,6 @@ section h1 {
 }
 
 section h2 {
-  font-family: chanpagne;
   color: #be731d;
   font-size: 1rem;
   font-weight: bold;
@@ -152,24 +158,29 @@ section h2 {
 .cards-main {
   display: flex;
   flex-grow: 1;
-  width: 100%;
+  width: 90%;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 1.25rem;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 20%;
-  height: 30rem;
+  align-items: start;
+  justify-content: start;
+  width: 30%;
+  height: 35rem;
   background-color: antiquewhite;
   border: 2px solid black;
   border-radius: 0.3125rem;
   margin: 0.625rem;
   box-shadow: 3px 3px 10px #2e2d2d;
+}
+.card p {
+  font-family: coolvetica;
+  font-size: 1rem;
+  padding: 0.3125rem;
 }
 .card:hover {
   transform: scale(1.05);
@@ -177,13 +188,14 @@ section h2 {
 .card h3 {
   background-color: rgba(196, 151, 29, 0.596);
   padding: 0.625rem 0.3125rem;
+  width: 100%;
 }
 
 .card-imagen {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -193,7 +205,37 @@ section h2 {
   border-radius: 0.3125rem;
 }
 
-.cards-main .card p {
+.card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  width: 100%;
+}
+
+.card-index {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  width: 25%;
+  height: 35rem;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  border-radius: 0.3125rem;
+  margin: 0.625rem;
+  box-shadow: 3px 3px 10px #2e2d2d;
+}
+.card-index:hover {
+  transform: scale(1.05);
+}
+.card-index h3 {
+  background-color: rgba(196, 151, 29, 0.596);
+  padding: 0.625rem 0.3125rem;
+  width: 100%;
+}
+
+.cards-main .card-index p {
   font-family: coolvetica;
   font-size: 1rem;
   padding: 0.3125rem;
@@ -234,20 +276,16 @@ section h2 {
   flex-wrap: wrap;
   width: 100%;
   margin-top: 1.875rem;
-  gap: 0.9375rem;
   justify-content: center;
 }
 
 .card-h {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 40%;
-  min-width: 12.5rem;
-  border: 2px solid black;
-  border-radius: 0.3125rem;
-  box-shadow: 3px 3px 10px #2e2d2d;
+  width: 90%;
+  padding-top: 1.25rem;
 }
 .card-h:hover {
   transform: scale(1.03);
@@ -260,9 +298,8 @@ section h2 {
   justify-content: center;
   width: 20%;
   min-width: 12.5rem;
-  border: 2px solid black;
-  border-radius: 0.3125rem;
-  box-shadow: 3px 3px 10px #2e2d2d;
+  padding: 1.25rem;
+  padding-top: 1.25rem;
 }
 .card-h-chicas:hover {
   transform: scale(1.03);
@@ -270,9 +307,13 @@ section h2 {
 
 .card-h-imagen {
   width: 100%;
+  border-radius: 50%;
+  box-shadow: 3px 3px 10px #2e2d2d;
 }
 .card-h-imagen img {
   width: 100%;
+  border-radius: 50%;
+  box-shadow: 3px 3px 10px #2e2d2d;
 }
 
 .card-h-info {
@@ -283,14 +324,16 @@ section h2 {
   width: 100%;
   justify-content: left;
   align-items: left;
+  padding: 1.875rem;
 }
 .card-h-info h3 {
-  padding: 1.25rem;
-  background-color: #be731d;
   text-align: center;
+  color: #e29b4a;
+  text-shadow: 0.0625rem 0.0625rem #696051;
 }
 .card-h-info p {
-  padding: 1.25rem;
+  padding-top: 0.625rem;
+  padding-left: 0.9375rem;
   font-family: coolvetica;
   font-weight: lighter;
 }
@@ -667,6 +710,15 @@ section h2 {
   .card-texto {
     width: 100%;
   }
+  .card-h {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+  .card-h-info {
+    padding: 0.3125rem;
+  }
 }
 @media (max-width: 768px) {
   .imagen-main-buy {
@@ -791,6 +843,16 @@ section h2 {
   }
   .card-altas {
     height: auto;
+  }
+  .logo-link {
+    width: 90%;
+    justify-content: center;
+  }
+  .logo-link a {
+    text-align: center;
+  }
+  .logo-link img {
+    width: 40%;
   }
 }
 @media (max-width: 320px) {

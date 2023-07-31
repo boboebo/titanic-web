@@ -3,19 +3,26 @@
   width: 100%;
   align-items: center;
   }
+
+  .subtitulo{
+    text-shadow: .0625rem .0625rem rgb(63, 60, 49);
+    background-color: #d4c1a7e8;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+  }
   
   .imagen-main {
     width: 90%;
     align-items: center;
     justify-content: center;
     margin-top: 3.125rem;
-        img{
-            width: 100%;
-            border-radius: 0.3125rem;
-            border-style: ridge;
-            border-width: 0.125rem;
-            box-shadow: 3px 3px 10px #2e2d2d;
-        }
+    img{
+      width: 100%;
+      border-radius: 0.3125rem;
+      border-style: ridge;
+      border-width: 0.125rem;
+      box-shadow: 3px 3px 10px #2e2d2d;
+    }
   }
     
   .imagen-main-buy {
@@ -50,9 +57,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-        p {
-            color: #be731d;
-        }
+    p {
+      color: #be731d;
+    }
   }
   
   section h1 {
@@ -64,7 +71,7 @@
   }
   
   section h2 {
-    font-family: chanpagne;
+    // font-family: chanpagne;
     color: #be731d;
     font-size: 1rem;
     font-weight: bold;
