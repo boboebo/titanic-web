@@ -17,9 +17,15 @@
 
   .card-h{
     @include flex(column, start, start);
+    align-items: center;
   }
 
-  .card-h-info {
+  .card-h-info{
+    width: 100%;
     padding: .3125rem;
+  }
+
+  .card-h-imagen{
+    width: 70%;
   }
 }

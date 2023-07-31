@@ -21,6 +21,16 @@
 
     .card-h {
       height: auto;
+      width: 90%;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card-h-info{
+      width: 100%;
+    }
+
+    .card-h-imagen{
       width: 70%;
     }
   }

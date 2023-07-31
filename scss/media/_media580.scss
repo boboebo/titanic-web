@@ -1,6 +1,19 @@
 @media ((max-width: 580px)) {
-    .card-h {
-      height: auto;
-      width: 70%;
-    }
+  .card{
+    width: 90%;
+    height: 40rem;
+  }  
+  
+  .card-h{
+    align-items: center;
+  }
+
+  .card-h-info{
+    width: 100%;
+    padding: .3125rem;
+  }
+
+  .card-h-imagen{
+    width: 70%;
+  }
   }

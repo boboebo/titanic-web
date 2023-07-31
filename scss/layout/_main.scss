@@ -11,6 +11,21 @@
     padding-right: 1.875rem;
   }
   
+  .subtitulo-main{
+    @include flex(column, center, center);
+    gap: .625rem;
+    margin-top: 1.875rem;
+  }
+
+  .subtitulo-main img{
+    width: 10%;
+  }
+
+  .subtitulo-main h5 a{
+    text-decoration: none;
+    
+  }
+
   .imagen-main {
     width: 90%;
     align-items: center;
