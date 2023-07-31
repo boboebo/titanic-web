@@ -600,6 +600,11 @@ section h2 {
     height: auto;
     flex-direction: row;
   }
+  .card-index {
+    width: 70%;
+    height: auto;
+    flex-direction: row;
+  }
   .card-imagen {
     width: 50%;
   }
@@ -702,6 +707,9 @@ section h2 {
 }
 @media (max-width: 800px) {
   .card {
+    flex-direction: column;
+  }
+  .card-index {
     flex-direction: column;
   }
   .card-imagen {
@@ -836,6 +844,9 @@ section h2 {
 }
 @media (max-width: 500px) {
   .card {
+    height: 25rem;
+  }
+  .card-index {
     height: 25rem;
   }
   .mi-footer {
