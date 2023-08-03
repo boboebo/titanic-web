@@ -117,7 +117,7 @@
   
   .card-h {
     @include flex(row, center, center);
-    width: 90%;
+    width: 70%;
     padding-top: 1.25rem;
       &:hover{
         transform: scale(1.03);
@@ -136,7 +136,7 @@
   }
 
   .card-h-imagen {
-    width: 100%;
+    width: 60%;
     border-radius: 50%;
     box-shadow: 3px 3px 10px #2e2d2d;
     img {
