@@ -29,7 +29,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 14rem;
+  height: 16rem;
   justify-content: start;
   align-items: center;
 }
@@ -39,7 +39,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 25%;
+  height: 22%;
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -627,8 +627,8 @@ section h2 {
   }
 }
 @media (max-width: 1309px) {
-  .main {
-    margin-top: 0.8rem;
+  .header {
+    height: 14rem;
   }
   .video-main {
     height: auto;
@@ -670,8 +670,8 @@ section h2 {
   }
 }
 @media (max-width: 991px) {
-  main {
-    margin-top: 0.1rem;
+  .header {
+    height: 13.5rem;
   }
   .navbar-container {
     justify-content: end;
@@ -764,8 +764,8 @@ section h2 {
   }
 }
 @media (max-width: 800px) {
-  .main {
-    margin-top: 0.5rem;
+  .header {
+    height: 13rem;
   }
   .card-h {
     display: flex;
@@ -790,6 +790,9 @@ section h2 {
   }
 }
 @media (max-width: 768px) {
+  .header {
+    height: 13.5rem;
+  }
   .logo-link {
     width: 50%;
   }
@@ -824,8 +827,8 @@ section h2 {
   }
 }
 @media (max-width: 600px) {
-  .main {
-    margin-top: 0.6rem;
+  .header {
+    height: 14rem;
   }
   .card-index {
     width: 90%;

@@ -1,28 +1,27 @@
 @media (max-width: 500px) {
-  .main {
-    margin-top: .1rem;
+  .header {
+    height: 12rem;
+  }
+  .card {
+    height: 25rem;
   }
 
-    .card {
-      height: 25rem;
-    }
+  .card-index {
+    width: 90%;
+  }
 
-    .card-index {
-      width: 90%;
-    }
+  .card{
+    width: 80%;
+    height: 40rem;
+  }  
 
-    .card{
-      width: 80%;
-      height: 40rem;
-    }  
-  
-    .mi-footer {
-      flex-direction: column;
-    }
-  
-    .card-altas {
-      height: auto;
-    }
+  .mi-footer {
+    flex-direction: column;
+  }
+
+  .card-altas {
+    height: auto;
+  }
 
   .logo-link {
      width: 75%;
