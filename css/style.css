@@ -29,7 +29,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 16rem;
+  height: 16.2rem;
   justify-content: start;
   align-items: center;
 }
@@ -138,7 +138,6 @@
   height: 25rem;
   align-items: center;
   justify-content: center;
-  margin-top: 1.25rem;
 }
 .video-main iframe {
   width: 100%;
@@ -627,7 +626,7 @@ section h2 {
 }
 @media (max-width: 1309px) {
   .header {
-    height: 14rem;
+    height: 14.3rem;
   }
   .video-main {
     height: auto;
