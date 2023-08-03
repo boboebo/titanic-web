@@ -1,36 +1,40 @@
 @media (max-width: 768px) {
-    .imagen-main-buy {
-      margin-top: 2.5rem;
-    }
-  
-    .imagen-main-buy {
-      margin-top: 2.5rem;
-    }
-  
-    .card-altas {
-      height: auto;
-      width: 60%;
-      flex-direction: column;
-      .card-imagen {
-        width: 100%;
-      }
-      .card-texto {
-        width: 100%;
-      }
-    }
+  .logo-link {
+    width: 50%;
+  }
 
-    .card-h {
-      height: auto;
-      width: 90%;
-      justify-content: center;
-      align-items: center;
-    }
+  .imagen-main-buy {
+    margin-top: 2.5rem;
+  }
 
-    .card-h-info{
+  .imagen-main-buy {
+    margin-top: 2.5rem;
+  }
+
+  .card-altas {
+    height: auto;
+    width: 80%;
+    flex-direction: column;
+    .card-imagen {
       width: 100%;
     }
-
-    .card-h-imagen{
-      width: 70%;
+    .card-texto {
+      width: 100%;
     }
   }
+
+  .card-h {
+    height: auto;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-h-info{
+    width: 100%;
+  }
+
+  .card-h-imagen{
+    width: 70%;
+  }
+}

@@ -1,4 +1,8 @@
 @media (max-width: 1209px) {
+  .video-main{
+    height: auto;
+  }
+
   .cards-main {
     display: flex;
     flex-direction: column;
@@ -11,9 +15,13 @@
   }
 
   .card-index {
-    width: 70%;
+    width: 80%;
     height: auto;
-    flex-direction: row;
+  }
+
+  .card-altas{
+    width: 80%;
+    height: auto;
   }
 
   .card-imagen {
@@ -22,6 +30,10 @@
 
   .card-texto {
     width: 100%;
+  }
+
+  .form{
+    width: 70%;
   }
     
   .redes {
@@ -33,8 +45,4 @@
       width: 50px;
     }
   }
-  
-    .card-altas {
-      height: 25rem;
-    }
-  }
+}

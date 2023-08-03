@@ -29,7 +29,6 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 3.125rem;
 }
 
 .head-top {
@@ -44,7 +43,7 @@
 .logo-link {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 40%;
   justify-content: center;
 }
 .logo-link a {
@@ -107,10 +106,10 @@
 }
 
 .imagen-main, .imagen-main-buy {
-  width: 90%;
+  width: 80%;
   align-items: center;
   justify-content: center;
-  margin-top: 3.125rem;
+  margin-top: 1.125rem;
 }
 .imagen-main img, .imagen-main-buy img {
   width: 100%;
@@ -121,7 +120,7 @@
 }
 
 .imagen-main-buy {
-  width: 90%;
+  width: 70%;
 }
 
 .video-main {
@@ -187,7 +186,7 @@ section h2 {
   align-items: start;
   justify-content: start;
   width: 30%;
-  height: 39rem;
+  height: 38rem;
   background-color: antiquewhite;
   border: 2px solid black;
   border-radius: 0.3125rem;
@@ -198,6 +197,7 @@ section h2 {
   font-family: coolvetica;
   font-size: 1rem;
   padding: 0.3125rem;
+  max-lines: 3;
 }
 .card:hover {
   transform: scale(1.05);
@@ -235,8 +235,8 @@ section h2 {
   flex-direction: column;
   align-items: start;
   justify-content: start;
-  width: 25%;
-  height: 35rem;
+  width: 30%;
+  height: auto;
   background-color: antiquewhite;
   border: 2px solid black;
   border-radius: 0.3125rem;
@@ -261,14 +261,20 @@ section h2 {
 .card-altas {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
+  align-items: start;
+  justify-content: start;
+  width: 30%;
+  height: auto;
   background-color: antiquewhite;
   border: 2px solid black;
   border-radius: 0.3125rem;
-  margin: 1.25rem;
+  margin: 0.625rem;
   box-shadow: 3px 3px 10px #2e2d2d;
+}
+.card-altas p {
+  font-family: coolvetica;
+  font-size: 1rem;
+  padding: 0.3125rem;
 }
 .card-altas:hover {
   transform: scale(1.05);
@@ -276,12 +282,13 @@ section h2 {
 .card-altas h3 {
   background-color: rgba(196, 151, 29, 0.596);
   padding: 0.625rem 0.3125rem;
+  width: 100%;
 }
 
 .cards-main .card-altas p {
   font-family: coolvetica;
   font-size: 1rem;
-  padding: 0.3125rem;
+  padding: 1.25rem;
 }
 
 /* card horizontal */
@@ -598,7 +605,34 @@ section h2 {
   width: 20%;
 }
 
+@media (max-width: 1700px) {
+  .card {
+    height: 38.5rem;
+  }
+  .card-altas {
+    height: 33rem;
+  }
+  .card-index {
+    height: 33.75rem;
+    width: 35%;
+  }
+}
+@media (max-width: 1300px) {
+  .card-index {
+    width: 32%;
+    height: 30rem;
+  }
+  .card {
+    height: 39.75rem;
+  }
+  .card-altas {
+    height: 32rem;
+  }
+}
 @media (max-width: 1209px) {
+  .video-main {
+    height: auto;
+  }
   .cards-main {
     display: flex;
     flex-direction: column;
@@ -609,15 +643,21 @@ section h2 {
     flex-direction: column;
   }
   .card-index {
-    width: 70%;
+    width: 80%;
     height: auto;
-    flex-direction: row;
+  }
+  .card-altas {
+    width: 80%;
+    height: auto;
   }
   .card-imagen {
     width: 100%;
   }
   .card-texto {
     width: 100%;
+  }
+  .form {
+    width: 70%;
   }
   .redes {
     flex-direction: row;
@@ -627,9 +667,6 @@ section h2 {
   }
   .redes img {
     width: 50px;
-  }
-  .card-altas {
-    height: 25rem;
   }
 }
 @media (max-width: 991px) {
@@ -643,11 +680,6 @@ section h2 {
 @media (max-width: 980px) {
   .imagen-main, .imagen-main-buy {
     width: 100%;
-  }
-  .card-altas {
-    width: 70%;
-    height: auto;
-    flex-direction: row;
   }
   .galeria-index {
     justify-content: center;
@@ -730,27 +762,7 @@ section h2 {
     height: auto;
   }
 }
-@media (max-width: 828px) {
-  .card-imagen {
-    width: 70%;
-  }
-  .card-texto {
-    width: 30%;
-  }
-}
 @media (max-width: 800px) {
-  .card {
-    flex-direction: column;
-  }
-  .card-index {
-    flex-direction: column;
-  }
-  .card-imagen {
-    width: 100%;
-  }
-  .card-texto {
-    width: 100%;
-  }
   .card-h {
     display: flex;
     flex-direction: column;
@@ -774,6 +786,9 @@ section h2 {
   }
 }
 @media (max-width: 768px) {
+  .logo-link {
+    width: 50%;
+  }
   .imagen-main-buy {
     margin-top: 2.5rem;
   }
@@ -782,7 +797,7 @@ section h2 {
   }
   .card-altas {
     height: auto;
-    width: 60%;
+    width: 80%;
     flex-direction: column;
   }
   .card-altas .card-imagen {
@@ -891,7 +906,7 @@ section h2 {
 }
 @media ((max-width: 580px)) {
   .card {
-    width: 90%;
+    width: 80%;
     height: 40rem;
   }
   .card-h {
@@ -904,17 +919,19 @@ section h2 {
   .card-h-imagen {
     width: 70%;
   }
+  .video-main {
+    height: auto;
+  }
 }
 @media (max-width: 500px) {
   .card {
     height: 25rem;
   }
   .card-index {
-    width: 100%;
-    height: 30rem;
+    width: 90%;
   }
   .card {
-    width: 100%;
+    width: 80%;
     height: 40rem;
   }
   .mi-footer {
@@ -924,14 +941,7 @@ section h2 {
     height: auto;
   }
   .logo-link {
-    width: 90%;
-    justify-content: center;
-  }
-  .logo-link a {
-    text-align: center;
-  }
-  .logo-link img {
-    width: 40%;
+    width: 75%;
   }
 }
 @media (max-width: 320px) {

@@ -10,7 +10,7 @@
   .card {
     @include flex(column, start, start);
     width: 30%;
-    height: 39rem;
+    height: 38rem;
     background-color: antiquewhite;
     border: 2px solid black;
     border-radius: 0.3125rem;
@@ -20,6 +20,7 @@
       font-family: coolvetica;
       font-size: 1rem;
       padding: 0.3125rem;
+      max-lines: 3;
     }
     &:hover{
       transform: scale(1.05);
@@ -52,8 +53,8 @@
   
   .card-index {
     @include flex(column, start, start);
-    width: 25%;
-    height: 35rem;
+    width: 30%;
+    height: auto;
     background-color: antiquewhite;
     border: 2px solid black;
     border-radius: 0.3125rem;
@@ -76,23 +77,33 @@
   }
    
   .card-altas {
-    @include flex(column, center, center);
-    width: 50%;
+    @include flex(column, start, start);
+    width: 30%;
+    height: auto;
     background-color: antiquewhite;
-    @include round-border(1.25rem);
-      &:hover{
-        transform: scale(1.05);
-      }
-      h3 {
-        background-color: $color_fondo;
-        padding: 0.625rem 0.3125rem;
-      }
+    border: 2px solid black;
+    border-radius: 0.3125rem;
+    margin: 0.625rem;
+    box-shadow: 3px 3px 10px #2e2d2d;
+    p {
+      font-family: coolvetica;
+      font-size: 1rem;
+      padding: 0.3125rem;
+    }
+    &:hover{
+      transform: scale(1.05);
+    }
+    h3 {
+      background-color: $color_fondo;
+      padding: 0.625rem 0.3125rem;
+      width: 100%;
+    }
   }
 
   .cards-main .card-altas p {
     font-family: coolvetica;
     font-size: 1rem;
-    padding: 0.3125rem;
+    padding: 1.25rem;
   }
   
   /* card horizontal */
