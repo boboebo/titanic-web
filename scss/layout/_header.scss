@@ -12,6 +12,9 @@
     justify-content: center;
     height: 25%;
     width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-image: url("../assets/img/head-bg.jpg");
   }
   
   .logo-link {
@@ -19,6 +22,7 @@
     flex-direction: column;
     width: 40%;
     justify-content: center;
+    margin-top: 1.625rem;
     a {
       text-align: center;
     }
@@ -33,7 +37,7 @@
     background-image: url("../assets/img/fondo-menu2InvSmall.jpg");
     background-size: cover;
     width: 100%;
-    margin-top: 0.625rem;
+    margin-top: .625rem;
     height: 5rem;
     justify-content: center;
     align-items: center;

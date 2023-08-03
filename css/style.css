@@ -38,6 +38,9 @@
   justify-content: center;
   height: 25%;
   width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-image: url("../assets/img/head-bg.jpg");
 }
 
 .logo-link {
@@ -45,6 +48,7 @@
   flex-direction: column;
   width: 40%;
   justify-content: center;
+  margin-top: 1.625rem;
 }
 .logo-link a {
   text-align: center;
@@ -79,6 +83,8 @@
   justify-content: center;
   width: 100%;
   align-items: center;
+  margin-top: 13.5rem;
+  position: relative;
 }
 
 .subtitulo {

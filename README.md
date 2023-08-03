@@ -1,6 +1,6 @@
 # Página Web del Viaje Inaugural del Titanic
 
-![Titanic](head-home.jpg)
+![Titanic](./assets/img/head-home.jpg)
 
 ¡Bienvenidos a la Página Web del Viaje Inaugural del Titanic!
 
