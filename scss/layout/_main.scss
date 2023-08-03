@@ -2,7 +2,11 @@
   @include flex(column, center, center);
   width: 100%;
   align-items: center;
+<<<<<<< HEAD
   margin-top: 2rem;
+=======
+  margin-top: 4rem;
+>>>>>>> 4af0c0f (entrega final)
   position: relative;
   }
 
@@ -32,7 +36,7 @@
     width: 80%;
     align-items: center;
     justify-content: center;
-    margin-top: 1.125rem;
+    // margin-top: 1.125rem;
     img{
       width: 100%;
       border-radius: 0.3125rem;

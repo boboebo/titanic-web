@@ -1,4 +1,8 @@
-  @media (max-width: 991px) {
+@media (max-width: 991px) {
+  main {
+      margin-top: .1rem;
+  }
+
   .navbar-container {
       justify-content: end;
   }

@@ -1,4 +1,8 @@
 @media (max-width: 800px) {
+  .main {
+    margin-top: .5rem;
+  }
+
   .card-h{
     @include flex(column, start, start);
     align-items: center;

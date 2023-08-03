@@ -1,8 +1,28 @@
 @media (max-width: 600px) {
+  .main {
+    margin-top: .6rem;
+  }
+
+  .card-index {
+    width: 90%;
+  }
+
   .card{
-    width: 80%;
-    height: 40rem;
+    width: 90%;
+    height: 37rem;
   }  
+
+  .mi-footer {
+    flex-direction: column;
+  }
+
+  .card-altas {
+    height: auto;
+  }
+
+  .logo-link {
+     width: 75%;
+  }
   
   .card-h{
     align-items: center;
