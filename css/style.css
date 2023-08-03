@@ -29,6 +29,8 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  justify-content: start;
+  align-items: start;
 }
 
 .head-top {
@@ -83,7 +85,7 @@
   justify-content: center;
   width: 100%;
   align-items: center;
-  margin-top: 15.5rem;
+  margin-top: 16.8rem;
   position: relative;
 }
 
