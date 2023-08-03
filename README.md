@@ -6,7 +6,7 @@
 
 ## Descripción
 
-Este repositorio contiene el código fuente y los recursos para una página web ficticia que promociona el histórico viaje inaugural del famoso barco Titanic. La página web está diseñada para revivir la emoción y el esplendor de aquel viaje de ensueño que capturó la imaginación de miles de personas. Y tambien aprobar con 10 el corso de Diseño Web en CoderHouse
+Este repositorio contiene el código fuente y los recursos para una página web ficticia que promociona el histórico viaje inaugural del famoso barco Titanic. La página web está diseñada para revivir la emoción y el esplendor de aquel viaje de ensueño que capturó la imaginación de miles de personas. Y tambien aprobar con 10 el curso de Diseño Web en CoderHouse
 
 ## Características
 
