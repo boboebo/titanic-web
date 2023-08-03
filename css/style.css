@@ -86,7 +86,7 @@
   justify-content: center;
   width: 100%;
   align-items: center;
-  margin-top: 16.9rem;
+  margin-top: 3.5rem;
   position: relative;
 }
 
@@ -628,7 +628,7 @@ section h2 {
 }
 @media (max-width: 1209px) {
   .main {
-    margin-top: 14rem;
+    margin-top: 1rem;
   }
   .video-main {
     height: auto;
@@ -784,9 +784,6 @@ section h2 {
   }
 }
 @media (max-width: 768px) {
-  .main {
-    margin-top: 13rem;
-  }
   .logo-link {
     width: 50%;
   }
@@ -923,6 +920,9 @@ section h2 {
   }
 }
 @media (max-width: 500px) {
+  .main {
+    margin-top: 0.5rem;
+  }
   .card {
     height: 25rem;
   }
